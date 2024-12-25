@@ -1,3 +1,5 @@
+package exercice1;
+
 public class EntierNaturel {
     int val;
         // // Constructeur pour initialiser val avec un entier

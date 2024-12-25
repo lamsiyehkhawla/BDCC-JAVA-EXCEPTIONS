@@ -1,4 +1,6 @@
-public class CompteEpargne extends CompteBancaire{
+package exercice2;
+
+public class CompteEpargne extends CompteBancaire {
     private double tauxInteret;
 
     public CompteEpargne(String numeroCompte, double solde, String nomTitulaire, double tauxInteret) {

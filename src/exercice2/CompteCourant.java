@@ -1,4 +1,6 @@
-public class CompteCourant extends CompteBancaire{
+package exercice2;
+
+public class CompteCourant extends CompteBancaire {
     private double decouvertAutorise;
 
     public CompteCourant(String numeroCompte, double solde, String nomTitulaire, double decouvertAutorise) {

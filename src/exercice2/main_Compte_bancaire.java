@@ -1,10 +1,12 @@
+package exercice2;
+
 import java.util.ArrayList;
 
 public class main_Compte_bancaire {
     public static void main(String[] args) {
         ArrayList<CompteBancaire> comptes = new ArrayList();
-        CompteCourant cc1 = new CompteCourant("123456", 1000, "Mme.Lamsiyeh", 200);
-        CompteEpargne ce1 = new CompteEpargne("654321", 5000, "M.Lam", 5);
+        CompteCourant cc1 = new CompteCourant("123456", 1000, "Mme.A", 200);
+        CompteEpargne ce1 = new CompteEpargne("654321", 5000, "M.B", 5);
         comptes.add(cc1);
         comptes.add(ce1);
 

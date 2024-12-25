@@ -1,3 +1,5 @@
+package exercice2;
+
 public abstract class CompteBancaire {
     protected String numeroCompte;
     protected String nom;
@@ -31,7 +33,7 @@ public abstract class CompteBancaire {
     public void afficherSolde() {
         System.out.println("Solde: " + solde);
     }
-    public void transfer(CompteBancaire destinataire,double soldeTrans) throws FondsInsuffisantsException ,CompteInexistantException {
+    public void transfer(CompteBancaire destinataire,double soldeTrans) throws FondsInsuffisantsException, CompteInexistantException {
         if (destinataire==null){
              throw new CompteInexistantException("Compte inexistant");
         }
