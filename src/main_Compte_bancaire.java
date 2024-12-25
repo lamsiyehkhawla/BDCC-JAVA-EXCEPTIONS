@@ -18,7 +18,6 @@ public class main_Compte_bancaire {
         } catch (FondsInsuffisantsException | CompteInexistantException e) {
             System.out.println(e.getMessage());
         }
-
         // Supprimer un compte
         comptes.remove(cc1);
     }
